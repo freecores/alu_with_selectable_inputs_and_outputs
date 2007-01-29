@@ -1,0 +1,44 @@
+20 INFO: Output Transaction no: 0
+20 INFO: oc_data = 0000000000000000
+20 INFO: oc_parity = 0
+
+155 INFO: Output Transaction no: 1
+155 INFO: oc_data = 0000110110001101
+155 INFO: oc_parity = 1
+
+215 INFO: Output Transaction no: 2
+215 INFO: oc_data = 0000000000000000
+215 INFO: oc_parity = 0
+
+275 INFO: Output Transaction no: 3
+275 INFO: oc_data = 0000000000000000
+275 INFO: oc_parity = 0
+
+335 INFO: Output Transaction no: 4
+335 INFO: oc_data = 0000000000000000
+335 INFO: oc_parity = 0
+
+385 INFO: Output Transaction no: 5
+385 INFO: oc_data = 1011110110111101
+385 INFO: oc_parity = 0
+
+435 INFO: Output Transaction no: 6
+435 INFO: oc_data = 0000000000100000
+435 INFO: oc_parity = 1
+
+505 INFO: Output Transaction no: 7
+505 INFO: oc_data = 0000000000000001
+505 INFO: oc_parity = 1
+
+565 INFO: Output Transaction no: 8
+565 INFO: oc_data = 1100111111001111
+565 INFO: oc_parity = 0
+
+615 INFO: Output Transaction no: 9
+615 INFO: oc_data = 0000000000000001
+615 INFO: oc_parity = 1
+
+675 INFO: Output Transaction no: 10
+675 INFO: oc_data = 0000000011111111
+675 INFO: oc_parity = 0
+

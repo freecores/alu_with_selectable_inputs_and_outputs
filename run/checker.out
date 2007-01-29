@@ -1,0 +1,70 @@
+116 INFO: Collected IN transaction no 0: ic_data_0 = 01110001, ic_data_1 = 00001101, ic_data_2 = 10001101, ic_data_3 = 00000000
+Concatenation operator
+OPERATION {} (Concatenation): ic_data_1 = 00001101, ic_data_2 = 10001101, checker_result = 0000110110001101
+155 INFO: Collected OUT transaction no 0: 0000110110001101
+155 INFO: Calculus of data for transaction no. 0 match! (0000110110001101 - 0000110110001101)
+155 INFO: Calculus of parity for transaction no. 0 match! (1 - 1)
+
+176 INFO: Collected IN transaction no 1: ic_data_0 = 00100011, ic_data_1 = 01110110, ic_data_2 = 00111101, ic_data_3 = 00000000
+Relational operator
+OPERATION < (Less than): ic_data_1 = 01110110, ic_data_2 = 00111101, checker_result = 0000000000000000
+215 INFO: Collected OUT transaction no 1: 0000000000000000
+215 INFO: Calculus of data for transaction no. 1 match! (0000000000000000 - 0000000000000000)
+215 INFO: Calculus of parity for transaction no. 1 match! (0 - 0)
+
+236 INFO: Collected IN transaction no 2: ic_data_0 = 00100010, ic_data_1 = 11000101, ic_data_2 = 10101010, ic_data_3 = 00000000
+Relational operator
+OPERATION < (Less than): ic_data_1 = 11000101, ic_data_2 = 10101010, checker_result = 0000000000000000
+275 INFO: Collected OUT transaction no 2: 0000000000000000
+275 INFO: Calculus of data for transaction no. 2 match! (0000000000000000 - 0000000000000000)
+275 INFO: Calculus of parity for transaction no. 2 match! (0 - 0)
+
+286 INFO: Collected IN transaction no 3: ic_data_0 = 01011011, ic_data_1 = 11110010, ic_data_2 = 10101010, ic_data_3 = 00000000
+Reduction operator
+OPERATION ^~ (Reduction xnor (1st operator symbol)): ic_data_1 = 11110010, checker_result = 0000000000000000
+335 INFO: Collected OUT transaction no 3: 0000000000000000
+335 INFO: Calculus of data for transaction no. 3 match! (0000000000000000 - 0000000000000000)
+335 INFO: Calculus of parity for transaction no. 3 match! (0 - 0)
+
+336 INFO: Collected IN transaction no 4: ic_data_0 = 10000000, ic_data_1 = 10111101, ic_data_2 = 10101010, ic_data_3 = 00000000
+Replication operator
+OPERATION { { } } (Replication): ic_data_1 = 10111101 - replicated twice: checker_result = 1011110110111101
+385 INFO: Collected OUT transaction no 4: 1011110110111101
+385 INFO: Calculus of data for transaction no. 4 match! (1011110110111101 - 1011110110111101)
+385 INFO: Calculus of parity for transaction no. 4 match! (0 - 0)
+
+406 INFO: Collected IN transaction no 5: ic_data_0 = 10010000, ic_data_1 = 10000000, ic_data_2 = 00100000, ic_data_3 = 10101010
+Conditional operator
+OPERATION ?: (Conditional): ic_data_1 = 10000000, ic_data_2 = 00100000, ic_data_3=10101010, checker_result = 0000000000100000
+435 INFO: Collected OUT transaction no 5: 0000000000100000
+435 INFO: Calculus of data for transaction no. 5 match! (0000000000100000 - 0000000000100000)
+435 INFO: Calculus of parity for transaction no. 5 match! (1 - 1)
+
+466 INFO: Collected IN transaction no 6: ic_data_0 = 00100111, ic_data_1 = 01010011, ic_data_2 = 01101011, ic_data_3 = 10101010
+Relational operator
+OPERATION <= (Less than or equal): ic_data_1 = 01010011, ic_data_2 = 01101011, checker_result = 0000000000000001
+505 INFO: Collected OUT transaction no 6: 0000000000000001
+505 INFO: Calculus of data for transaction no. 6 match! (0000000000000001 - 0000000000000001)
+505 INFO: Calculus of parity for transaction no. 6 match! (1 - 1)
+
+516 INFO: Collected IN transaction no 7: ic_data_0 = 10000001, ic_data_1 = 11001111, ic_data_2 = 01101011, ic_data_3 = 10101010
+Replication operator
+OPERATION { { } } (Replication): ic_data_1 = 11001111 - replicated twice: checker_result = 1100111111001111
+565 INFO: Collected OUT transaction no 7: 1100111111001111
+565 INFO: Calculus of data for transaction no. 7 match! (1100111111001111 - 1100111111001111)
+565 INFO: Calculus of parity for transaction no. 7 match! (0 - 0)
+
+576 INFO: Collected IN transaction no 8: ic_data_0 = 00000010, ic_data_1 = 11110010, ic_data_2 = 10001010, ic_data_3 = 10101010
+Arithmetic operator
+OPERATION / (Divide): ic_data_1 = 11110010, ic_data_2 = 10001010, checker_result = 0000000000000001
+615 INFO: Collected OUT transaction no 8: 0000000000000001
+615 INFO: Calculus of data for transaction no. 8 match! (0000000000000001 - 0000000000000001)
+615 INFO: Calculus of parity for transaction no. 8 match! (1 - 1)
+
+636 INFO: Collected IN transaction no 9: ic_data_0 = 01000101, ic_data_1 = 11101011, ic_data_2 = 10110110, ic_data_3 = 10101010
+Bitwise operator
+OPERATION | (Bitwise or): ic_data_1 = 11101011, ic_data_2 = 10110110, checker_result = 0000000011111111
+675 INFO: Collected OUT transaction no 9: 0000000011111111
+675 INFO: Calculus of data for transaction no. 9 match! (0000000011111111 - 0000000011111111)
+675 INFO: Calculus of parity for transaction no. 9 match! (0 - 0)
+

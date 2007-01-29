@@ -1,0 +1,99 @@
+20 INFO: Input Transaction no: 0
+20 INFO: ic_data_out_0 = 00000000
+	INFO: operator type = 0
+	INFO: operator symbol = 0
+	INFO: output channel = 0
+20 INFO: ic_data_out_1 = 00000000
+20 INFO: ic_data_out_2 = 00000000
+20 INFO: ic_data_out_3 = 00000000
+
+115 INFO: Input Transaction no: 1
+115 INFO: ic_data_out_0 = 01110001
+	INFO: operator type = 7
+	INFO: operator symbol = 0
+	INFO: output channel = 1
+115 INFO: ic_data_out_1 = 00001101
+115 INFO: ic_data_out_2 = 10001101
+115 INFO: ic_data_out_3 = 00000000
+
+175 INFO: Input Transaction no: 2
+175 INFO: ic_data_out_0 = 00100011
+	INFO: operator type = 2
+	INFO: operator symbol = 1
+	INFO: output channel = 1
+175 INFO: ic_data_out_1 = 01110110
+175 INFO: ic_data_out_2 = 00111101
+175 INFO: ic_data_out_3 = 00000000
+
+235 INFO: Input Transaction no: 3
+235 INFO: ic_data_out_0 = 00100010
+	INFO: operator type = 2
+	INFO: operator symbol = 1
+	INFO: output channel = 0
+235 INFO: ic_data_out_1 = 11000101
+235 INFO: ic_data_out_2 = 10101010
+235 INFO: ic_data_out_3 = 00000000
+
+285 INFO: Input Transaction no: 4
+285 INFO: ic_data_out_0 = 01011011
+	INFO: operator type = 5
+	INFO: operator symbol = 5
+	INFO: output channel = 1
+285 INFO: ic_data_out_1 = 11110010
+285 INFO: ic_data_out_2 = 10101010
+285 INFO: ic_data_out_3 = 00000000
+
+335 INFO: Input Transaction no: 5
+335 INFO: ic_data_out_0 = 10000000
+	INFO: operator type = 8
+	INFO: operator symbol = 0
+	INFO: output channel = 0
+335 INFO: ic_data_out_1 = 10111101
+335 INFO: ic_data_out_2 = 10101010
+335 INFO: ic_data_out_3 = 00000000
+
+405 INFO: Input Transaction no: 6
+405 INFO: ic_data_out_0 = 10010000
+	INFO: operator type = 9
+	INFO: operator symbol = 0
+	INFO: output channel = 0
+405 INFO: ic_data_out_1 = 10000000
+405 INFO: ic_data_out_2 = 00100000
+405 INFO: ic_data_out_3 = 10101010
+
+465 INFO: Input Transaction no: 7
+465 INFO: ic_data_out_0 = 00100111
+	INFO: operator type = 2
+	INFO: operator symbol = 3
+	INFO: output channel = 1
+465 INFO: ic_data_out_1 = 01010011
+465 INFO: ic_data_out_2 = 01101011
+465 INFO: ic_data_out_3 = 10101010
+
+515 INFO: Input Transaction no: 8
+515 INFO: ic_data_out_0 = 10000001
+	INFO: operator type = 8
+	INFO: operator symbol = 0
+	INFO: output channel = 1
+515 INFO: ic_data_out_1 = 11001111
+515 INFO: ic_data_out_2 = 01101011
+515 INFO: ic_data_out_3 = 10101010
+
+575 INFO: Input Transaction no: 9
+575 INFO: ic_data_out_0 = 00000010
+	INFO: operator type = 0
+	INFO: operator symbol = 1
+	INFO: output channel = 0
+575 INFO: ic_data_out_1 = 11110010
+575 INFO: ic_data_out_2 = 10001010
+575 INFO: ic_data_out_3 = 10101010
+
+635 INFO: Input Transaction no: 10
+635 INFO: ic_data_out_0 = 01000101
+	INFO: operator type = 4
+	INFO: operator symbol = 2
+	INFO: output channel = 1
+635 INFO: ic_data_out_1 = 11101011
+635 INFO: ic_data_out_2 = 10110110
+635 INFO: ic_data_out_3 = 10101010
+

@@ -1,0 +1,58 @@
+
+Executing 'make TEST_TYPE=improved_test.v >> improved_test.log 2>&1'
+
+v ../rtl/dut.v ../rtl/selector.v ../rtl/alu.v ../rtl/dmux.v ../verif_env/bfms/clk_gen.v ../verif_env/bfms/res_bfm.v ../verif_env/bfms/data_in_bfm.v ../verif_env/monitors/clk_monitor.v ../verif_env/monitors/res_monitor.v ../verif_env/monitors/stb_monitor.v ../verif_env/monitors/sel_monitor.v ../verif_env/monitors/data_valid_in_monitor.v ../verif_env/monitors/data_in_monitor.v ../verif_env/monitors/data_out_monitor.v ../verif_env/monitors/parity_monitor.v ../verif_env/monitors/valid_monitor.v ../verif_env/collectors/input_collector.v ../verif_env/collectors/output_collector.v ../verif_env/checker/checker.v ../tests/improved_test.v
+
+Compiling source file "../rtl/dut.v"
+Compiling source file "../rtl/selector.v"
+Compiling source file "../rtl/alu.v"
+Compiling source file "../rtl/dmux.v"
+Compiling source file "../verif_env/bfms/clk_gen.v"
+Compiling source file "../verif_env/bfms/res_bfm.v"
+Compiling source file "../verif_env/bfms/data_in_bfm.v"
+Compiling source file "../verif_env/monitors/clk_monitor.v"
+Compiling source file "../verif_env/monitors/res_monitor.v"
+Compiling source file "../verif_env/monitors/stb_monitor.v"
+Compiling source file "../verif_env/monitors/sel_monitor.v"
+Compiling source file "../verif_env/monitors/data_valid_in_monitor.v"
+Compiling source file "../verif_env/monitors/data_in_monitor.v"
+Compiling source file "../verif_env/monitors/data_out_monitor.v"
+Compiling source file "../verif_env/monitors/parity_monitor.v"
+Compiling source file "../verif_env/monitors/valid_monitor.v"
+Compiling source file "../verif_env/collectors/input_collector.v"
+Compiling source file "../verif_env/collectors/output_collector.v"
+Compiling source file "../verif_env/checker/checker.v"
+Compiling source file "../tests/improved_test.v"
+Highest level modules:
+proj_improved_test
+
+Transaction no: 0
+OPERATION {} (Concatenation): alu_memory[0]=00001101, alu_memory[1]=10001101, alu_result=0000110110001101
+Transaction no: 1
+Relational operator
+OPERATION < (Less than): alu_memory[0]=01110110, alu_memory[1]=00111101, alu_result=0000000000000000
+Transaction no: 2
+Relational operator
+OPERATION < (Less than): alu_memory[0]=11000101, alu_memory[1]=10101010, alu_result=0000000000000000
+Transaction no: 3
+Reduction operator
+OPERATION ^~ (Reduction xnor (1st operator symbol)): alu_memory[0]=11110010, alu_result=0000000000000000
+Transaction no: 4
+Replication operator
+OPERATION { { } } (Replication): alu_memory[0]=10111101 - replicated twice: alu_result=1011110110111101
+Transaction no: 5
+Conditional operator
+OPERATION ?: (Conditional): alu_memory[0]=10000000, alu_memory[1]=00100000, alu_memory[2]=10101010, alu_result=0000000000100000
+Transaction no: 6
+Relational operator
+OPERATION <= (Less than or equal): alu_memory[0]=01010011, alu_memory[1]=01101011, alu_result=0000000000000001
+Transaction no: 7
+Replication operator
+OPERATION { { } } (Replication): alu_memory[0]=11001111 - replicated twice: alu_result=1100111111001111
+Transaction no: 8
+Arithmetic operator
+OPERATION / (Divide): alu_memory[0]=11110010, alu_memory[1]=10001010, alu_result=0000000000000001
+Transaction no: 9
+Bitwise operator
+OPERATION | (Bitwise or): alu_memory[0]=11101011, alu_memory[1]=10110110, alu_result=0000000011111111
+L167 "../verif_env/bfms/data_in_bfm.v": $finish at simulation time 730
